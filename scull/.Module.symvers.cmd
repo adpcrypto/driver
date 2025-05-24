@@ -1,1 +1,0 @@
-cmd_/home/adpcrypto/driver/scull/Module.symvers := sed 's/\.ko$$/\.o/' /home/adpcrypto/driver/scull/modules.order | scripts/mod/modpost -m -a  -o /home/adpcrypto/driver/scull/Module.symvers -e -i Module.symvers   -T -
