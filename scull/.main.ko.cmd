@@ -1,0 +1,1 @@
+cmd_/home/adpcrypto/driver/scull/main.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/adpcrypto/driver/scull/main.ko /home/adpcrypto/driver/scull/main.o /home/adpcrypto/driver/scull/main.mod.o;  true
